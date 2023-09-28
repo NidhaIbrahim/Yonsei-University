@@ -1,0 +1,7 @@
+  background-color: #cc3700; darker orange
+  background-color: #ff4500; lighter orange
+
+  #ff4133 orange lighter
+  
+  #002626 darker teal
+#004040   lighter teal

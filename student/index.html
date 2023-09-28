@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Yonsei University</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/student/assets/favicon.png" rel="icon">
+  <!-- <link href="/student/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/student/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/student/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/student/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/student/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="/student/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="/student/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/student/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/student/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="/student/index.html" class="logo d-flex align-items-center">
+        <!-- <img src="/student/assets/img/logo.png" alt=""> -->
+        <!-- <img src="/student/assets/img/1.png" alt=""> -->
+        <span class="d-none d-lg-block">Yonsei University</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="/student/assets/img/vector/20.jpg" alt="Profile" class="rounded-circle opacity-75">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Student lorem</span>
+          </a><!-- End Profile Image Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Lorem, ipsum.</h6>
+              <span>Student</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/student/student-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar ">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="/student/index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="/student/attendance.html">
+          <i class="bi bi-person-fill"></i>
+          <span>Attendance</span>
+        </a>
+      </li><!-- End Student Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="/student/leave-application.html">
+          <i class="bi bi-person-fill"></i>
+          <span>Leave Application</span>
+        </a>
+      </li><!-- End Leave Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="/student/examination.html">
+          <i class="bi bi-person-square"></i>
+          <span>Examination</span>
+        </a>
+      </li><!-- End Staff Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="/student/notification.html">
+          <i class="bi bi-megaphone"></i>
+          <span>Notifications</span>
+        </a>
+      </li><!-- End Notifications Nav -->
+
+      <li class="nav-heading">Others</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/student/student-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/student/others-Feedback.html">
+          <i class="bi bi-envelope"></i>
+          <span>Feedback</span>
+        </a>
+      </li><!-- End Feedback Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/student/others-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F&Q</span>
+        </a>
+      </li><!-- End Feedback Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/common/index.html">
+          <i class="bi bi-box-arrow-right"></i>
+          <span>Log Out</span>
+        </a>
+      </li><!-- End Log Out Nav -->
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main masthead">
+
+    <div class="pagetitle">
+      <h1>Dashboard</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <!-- <li class="breadcrumb-item active">Home</li> -->
+          <!-- <li class="breadcrumb-item"><a href="/student/index.html">Dashboard</a></li> -->
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+            <!-- Attendance Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card sales-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <a href="/student/attendance.html">
+                  <div class="card-body">
+                    <h5 class="card-title">Attendance <span>| Today</span></h5>
+
+                    <div class="d-flex align-items-center">
+                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-person opacity-75"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>75%</h6>
+                        <span class="text-success small pt-1 fw-bold">4%</span> <span
+                          class="text-muted small pt-2 ps-1">increase</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+            </div><!-- End Attendance Card -->
+
+            <!-- Leave Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card sales-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <a href="/student/leave-application.html">
+                  <div class="card-body">
+                    <h5 class="card-title">Leave <span>| This Month</span></h5>
+
+                    <div class="d-flex align-items-center">
+                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-person opacity-75"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>5</h6>
+                        <span class="text-success small pt-1 fw-bold">40%</span> <span
+                          class="text-muted small pt-2 ps-1">decrease</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div><!-- End leave Card -->
+
+            <!-- Examination Card -->
+            <div class="col-xxl-4 col-xl-12">
+              <div class="card info-card customers-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter </h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <a href="/student/examination.html">
+                  <div class="card-body">
+                    <h5 class="card-title">Examination <span>| This Year</span></h5>
+
+                    <div class="d-flex align-items-center">
+                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-book-half"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>Semester Two</h6>
+                        <span class="text-danger small pt-1 fw-bold">1</span> <span
+                          class="text-muted small pt-2 ps-1">week to go</span>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+
+            </div><!-- End Examination Card -->
+
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+          <!-- Notifications Traffic -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Notifications <span>| Today</span></h5>
+
+              <div class="news">
+                <div class="post-item clearfix">
+                  <img src="/student/assets/img/vector/15.jpg" alt="">
+                  <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
+                  <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="/student/assets/img/vector/12.jpg" alt="">
+                  <h4><a href="#">Quidem autem et impedit</a></h4>
+                  <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <a href="/student/notification.html"><button type="button"
+                      class="btn btn-light btn-color w-100 mb-3">Show More</button></a>
+                </div>
+              </div><!-- End sidebar recent posts-->
+
+            </div>
+          </div><!-- End News & Updates -->
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>yonsei university</span></strong>. All Rights Reserved
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/student/assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="/student/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/student/assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="/student/assets/vendor/echarts/echarts.min.js"></script>
+  <script src="/student/assets/vendor/quill/quill.min.js"></script>
+  <script src="/student/assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="/student/assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="/student/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/student/assets/js/main.js"></script>
+
+</body>
+
+</html>

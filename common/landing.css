@@ -1,0 +1,145 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #d0d2b4;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    padding: 0px 15px;
+    border-radius: 20px;
+}
+
+.c1 {
+    background-color: #fff2f1;
+    border-radius: 20px;
+}
+
+a {
+    margin: 0px;
+    font-size: 13px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #e0726c;
+    background-color: #fff2f1;
+}
+
+.nav-link {
+    padding: 1rem 1.4rem;
+    margin: 0rem 0.7rem;
+}
+
+.ac {
+    font-weight: bold;
+    color: #e0726c;
+    font-size: 12px;
+}
+
+input,
+button {
+    width: 96%;
+    background-color: #fff2f1;
+    border-radius: 8px;
+    padding: 8px 17px;
+    font-size: 13px;
+    border: 1px solid #f5f0ef;
+    color: #dccece;
+}
+
+input{
+    text-decoration: none;
+}
+
+/* .bt {
+    background-color: #ff4133;
+    border: 1px solid #a2b4b4;
+} */
+
+.bt {
+    background-color: #004040;
+    border: 1px solid #d8eaea;
+}
+
+form {
+    margin-top: 70px;
+}
+
+form>* {
+    margin: 10px 0px;
+}
+
+#forgot {
+    margin: 0px -60px;
+}
+
+#register {
+    text-align: center;
+}
+
+img {
+    background-color: antiquewhite;
+}
+
+.wlcm {
+    font-size: 30px;
+}
+
+.sp1 {
+    font-size: 5px;
+}
+
+.sp1>span {
+    background-color: #f0c3be;
+}
+
+.background-main{
+    background-image: url('/common/assets/img/vector/18.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
+.text-color{
+    /* color: #ffffff; */
+    color: #e45147;
+}
+
+.masthead {
+    /* padding-top: 0.5rem; */
+    /* padding-bottom: calc(10rem - 4.5rem); */
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.5) 0%, rgba(92, 77, 66, 0.5) 100%), url("/common/assets/img/vector/12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* .background-card{
+    background: linear-gradient(to bottom, rgba(0, 66, 43, 0.2) 0%, rgba(0, 66, 43, 0.2) 100%), white;
+} */
+
+.color1{
+    color: #1a5252;
+    font-weight: 500;
+}
+
+#home {
+text-align: end;
+padding-right: 30px;
+}
+
+#home:hover{
+    color: #004040;
+}
+
+form a:hover{
+    text-decoration: none;
+}
